@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "todoappjs.Controllers.TodoController",
+    "Method": "PostTodo",
+    "RelativePath": "api/Todo/addtodo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "todoappjs.Models.TodoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "todoappjs.Controllers.TodoController",
+    "Method": "DeleteTodo",
+    "RelativePath": "api/Todo/deletetodo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "todoappjs.Controllers.TodoController",
+    "Method": "GetTodos",
+    "RelativePath": "api/Todo/getalltodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "todoappjs.Controllers.TodoController",
+    "Method": "GetTodo",
+    "RelativePath": "api/Todo/gettodo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "todoappjs.Controllers.TodoController",
+    "Method": "PutTodo",
+    "RelativePath": "api/Todo/updatetodo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "todoappjs.Models.TodoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
