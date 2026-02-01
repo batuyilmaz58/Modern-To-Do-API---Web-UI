@@ -24,6 +24,8 @@ Bu proje, bir Full-Stack geliştirme pratiği olarak tasarlanmıştır. Backend 
 
 - Async/Await: Tüm veritabanı işlemleri asenkron olarak kurgulanarak performans optimizasyonu sağlandı.
 
+![ProjeResmi](image.jpg)
+
 ## 📋 Kurulum ve Çalıştırma
 - Backend:
 
